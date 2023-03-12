@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 10px;
+   
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 10px;
+    position: relative;
+    font-weight: BOLD;
+    
+}
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+   left: 0;
+   bottom: -6px;
+   transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+  width: 100%;
+}
+
+  #mai-con  nav{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: px;
+    position: fixed;
+    top: 0;
+    background: white;
+    width: 100%;
+    z-index: 1000;
+    
+}
+
+
+nav ul li a button{
+    color: #000000;
+    font-size: 10px;
+    font-weight: bold;
+    border: 1px solid #000000;
+    background: #ffff;
+}
+
+nav ul li a button:hover{
+    color: red;
+}
+
+#car{ 
+
+    padding-top: 20px;
+   
+    background-image: url(images/001_pc.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+   
+    transition: 0.3;
+    background-position: center;
+}
+#cartext{
+    padding-left: 20px;
+    color: white;
+    padding-top: 80vh;
+}
+
+#cartext button{
+    font-size: 15px;
+    background: red;
+    color: white;
+    border-radius: 2px;
+}
+#cartext p{
+ font-size: 13px;
+ 
+}
+
+#car h5{
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+#cen{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+   
+    
+}
+
+#cen h5{
+    font-size: 14px;
+}
+
+
+.blockquoteForC{
+ padding: 0px 10px;
+ font-size: 15px;
+}
+
+
+.sec{
+    padding-top: 20px;
+    width: 100%;
+    height: 100vh;
+}
+
+.humans{
+    background-image: url(images/001_pc\ \(1\).jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.humant{
+    position: absolute;
+    padding-left: 20px;
+    color:white;
+    bottom: 50px;
+    width: 100%;
+    background-image: -webkit-gradient(linear,center top,center bottom,from(transparent),to(#000))
+    
+}
+
+.humant button{
+    font-size: 15px;
+    background: red;
+    color: white;
+    border-radius: 2px;
+}
+.humant p{
+ font-size: 13px;
+ 
+}
+
+.humant h5{
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.human2{
+    bottom: -1570px;
+}
+
+.humans2{
+    background-image: url(images/001_pc_en.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.mycards{
+    display: flex;
+    padding: 20px ;
+    margin-left: 100px;
+}
+
+.mb-3{
+    border: none;
+    margin-bottom: 0;
+    
+
+}
+
+.ImagesPart7{
+   padding: 5px 30px; 
+  
+}
+
+.ImagesPart7 img{
+    border-radius: 15px;
+}
+
+
+
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #303030;
+    color: #777;
+    background-color: black ;
+}
+
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    text-decoration: none;
+    display: block;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
